@@ -1,0 +1,20 @@
+{
+  "name": "pinoccio-twitter",
+  "description": "send commands to our Pinoccio Scouts with Twitter.",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/jingman/pinoccio-twitter.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "author": "Jake Ingman",
+  "dependencies": {
+    "twit": "^1.1.15",
+    "pinoccio": "^0.1.3"
+  },
+  "devDependencies": {
+    "tape": "^2.13.1"
+  }
+}
